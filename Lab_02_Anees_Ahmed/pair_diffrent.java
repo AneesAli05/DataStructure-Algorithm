@@ -8,6 +8,18 @@ package dsa_lab02;
  *
  * @author M Sultan
  */
-public class pair_diffrent {
+class pair_diffrent {
+     public static void main(String[] args) {
+        int[] nums={1,2,1};
+          int len = nums.length;
+        int[] ans = new int[2*len];
+        for(int i = 0; i < len; i++){
+            ans[i] = nums[i];
+            ans[i+len] = nums[i];
+        }
+    }
+    
+}
+
     
 }
