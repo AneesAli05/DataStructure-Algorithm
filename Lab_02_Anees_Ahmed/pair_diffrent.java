@@ -9,17 +9,16 @@ package dsa_lab02;
  * @author M Sultan
  */
 class pair_diffrent {
-     public static void main(String[] args) {
-        int[] nums={1,2,1};
-          int len = nums.length;
-        int[] ans = new int[2*len];
-        for(int i = 0; i < len; i++){
-            ans[i] = nums[i];
-            ans[i+len] = nums[i];
+      public static void main(String[] args) {
+        int[] nums={1,2,2,1};
+         int k=1;
+         int count=0;
+        for(int i=0;i<nums.length;i++){
+            for(int j=i;j<nums.length;j++){
+                if(nums[j]==k+nums[i]||nums[j]==nums[i]-k){
+                    count++;
+                }
+            }
         }
     }
-    
-}
-
-    
 }
