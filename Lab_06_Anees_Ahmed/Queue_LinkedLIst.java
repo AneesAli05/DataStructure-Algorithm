@@ -4,8 +4,6 @@
  */
 package Lab_06_Anees_Ahmed;
 
-import Lab_05_Anees_Ahmed.Node;
-
 /**
  *
  * @author M Sultan

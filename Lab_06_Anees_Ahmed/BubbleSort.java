@@ -25,7 +25,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {10000, 300, 30, 50, 80, 60};
         bubble(array);
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i<array.length; i++) {
             System.out.print(array[i] + " ");
 
         }
